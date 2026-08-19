@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+# Environment variables (contains secrets -- never commit this)
+.env
+
+# Raw data landing (see README for storage strategy)
+data/
